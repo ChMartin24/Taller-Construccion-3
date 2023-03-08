@@ -54,3 +54,9 @@ a {
 ol li{
     list-style: none;
 }
+
+.grid-experiencia  {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2em;
+}
