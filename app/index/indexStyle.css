@@ -36,7 +36,15 @@ a {
     text-decoration: none;
 }
 
-img {
+.gridSocial {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+
+.gridSocial img {
     border-radius: 50%;
     border: 3px 3px;
+    width: 4em;
+    height: 4em;
 }
