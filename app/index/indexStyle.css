@@ -7,6 +7,7 @@
 
 body {
     background-color: rgba(0, 0, 0, 0.9);
+    margin: 0%;
 }
 
 * {
@@ -16,16 +17,37 @@ body {
     color: #fff
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
+ul {
+    margin: 0%;
+    padding: 0.7em;
+    font-size: 0.875em;
+    text-align: right;
+    margin-right: 4em;
+}
+
 li {
     list-style: none;
     display: inline-block;
     padding: 8px;
 }
 
-ul {
-    text-align: right;
-    margin-right: 4em;
+a {
+    text-decoration: none;
 }
 
+.gridSocial {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2em;
+}
 
-
+.gridSocial img {
+    border-radius: 50%;
+    border: 3px 3px;
+    width: 4em;
+    height: 4em;
+}
