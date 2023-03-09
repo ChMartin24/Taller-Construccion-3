@@ -103,3 +103,11 @@ ol li {
   margin-top: -0.05em;
 }
 
+.divlinea{
+  height: 1px;
+  border-width: 0;
+  width: 50%;
+  color: gray;
+  background-color: gray;
+  display: inline-block;
+}
