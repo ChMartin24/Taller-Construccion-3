@@ -6,11 +6,11 @@
 */
 
 body {
-  background-image: url(https://www.pcclean.io/wp-content/uploads/2020/4/e2yYZr.jpg);
+  /*background-image: url(https://www.pcclean.io/wp-content/uploads/2020/4/e2yYZr.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  background-color: rgba(1,1,1,0.8);
+  background-size: cover; (Por si prefieren la imagen en vez del color negro de fondo)*/ 
+  background-color: rgba(1,1,1,0.9);
 }
 
 * {
