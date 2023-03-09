@@ -55,8 +55,13 @@ ol li{
     list-style: none;
 }
 
-.grid-experiencia  {
+#MisHabilidades div  {
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 2em;
 }
+
+.habilidad {
+    
+}
+
