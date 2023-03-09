@@ -46,8 +46,6 @@ a {
 }
 
 .gridSocial img {
-    border-radius: 50%;
-    border: 3px 3px;
     width: 4em;
     height: 4em;
 }
@@ -61,7 +59,11 @@ ol li{
     column-gap: 2em;
 }
 
-.habilidad {
-    
+.habilidad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4em;
+    height: 4em;
 }
 
